@@ -1,5 +1,7 @@
 ---
-date: '2025-05-17T21:52:23+10:00'
-draft: true
+date: '2025-05-19T22:19:33+10:00'
+draft: false
 title: 'Блог'
+cascade:
+    type: blog
 ---

@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile, by Design – Dart: Event Loop</title>
+    <link>http://localhost:1313/blog/eventloop/</link>
+    <description>Recent content in Dart: Event Loop on Mobile, by Design</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Mon, 19 May 2025 22:21:21 +1000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/blog/eventloop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>
