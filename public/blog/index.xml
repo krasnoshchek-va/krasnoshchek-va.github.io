@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mobile, by Design – Блог</title>
+    <title>Vladislav Krasnoshchek – Mobile, by Design</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Блог on Mobile, by Design</description>
+    <description>Recent content in Mobile, by Design on Vladislav Krasnoshchek</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Mon, 19 May 2025 22:19:33 +1000</lastBuildDate>
