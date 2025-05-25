@@ -1,0 +1,19 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vladislav Krasnoshchek – Dart: Future</title>
+    <link>http://localhost:1313/blog/future/</link>
+    <description>Recent content in Dart: Future on Vladislav Krasnoshchek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Sun, 25 May 2025 21:38:55 +1000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/blog/future/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

@@ -66,7 +66,7 @@
             title="Блог"
             href="/blog"
             
-            class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-text-gray-600 hover:hx-text-gray-800 dark:hx-text-gray-400 dark:hover:hx-text-gray-200"
+            class="hx-text-sm contrast-more:hx-text-gray-700 contrast-more:dark:hx-text-gray-100 hx-relative -hx-ml-2 hx-hidden hx-whitespace-nowrap hx-p-2 md:hx-inline-block hx-font-medium"
           >
             <span class="hx-text-center">Блог</span>
           </a><a
@@ -155,6 +155,14 @@
         <ul class='hx-relative hx-flex hx-flex-col hx-gap-1 before:hx-absolute before:hx-inset-y-1 before:hx-w-px before:hx-bg-gray-200 before:hx-content-[""] ltr:hx-ml-3 ltr:hx-pl-3 ltr:before:hx-left-0 rtl:hx-mr-3 rtl:hx-pr-3 rtl:before:hx-right-0 dark:before:hx-bg-neutral-800'><li class="hx-flex hx-flex-col "><a
     class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
       hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
+    href="/blog/future/"
+    
+  >Dart: Future
+    </a>
+              
+            </li><li class="hx-flex hx-flex-col "><a
+    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
+      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
     href="/blog/eventloop/"
     
   >Dart: Event Loop
@@ -162,13 +170,6 @@
               
             </li></ul>
       </div></li>
-          <li class=""><a
-    class="hx-flex hx-items-center hx-justify-between hx-gap-2 hx-cursor-pointer hx-rounded hx-px-2 hx-py-1.5 hx-text-sm hx-transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] [word-break:break-word]
-      hx-text-gray-500 hover:hx-bg-gray-100 hover:hx-text-gray-900 contrast-more:hx-border contrast-more:hx-border-transparent contrast-more:hx-text-gray-900 contrast-more:hover:hx-border-gray-900 dark:hx-text-neutral-400 dark:hover:hx-bg-primary-100/5 dark:hover:hx-text-gray-50 contrast-more:dark:hx-text-gray-50 contrast-more:dark:hover:hx-border-gray-50"
-    href="/about/"
-    
-  >Об авторе
-    </a></li>
     </ul>
 
     <div class="max-xl:hx-hidden hx-h-0 hx-w-64 hx-shrink-0"></div></div>
@@ -189,6 +190,14 @@
         <br class="hx-mt-1.5 hx-text-sm" />
         <h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">Mobile, by Design</h1>
         <div class="content"></div>
+          <div class="hx-mb-10">
+            <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-mt-8 hx-text-2xl " href="/blog/future/">Dart: Future</a></h3><p class="hx-opacity-80 hx-mt-4 hx-leading-7">В отличие от синхронной операции, асинхронная не может предоставить результат немедленно. Асинхронной операции может потребоваться дождаться выполнения других внешних операций (Например, выполнения сетевого запроса). Вместо блокировки потока, асинхронная операция немедленно возвращает объект типа Future, который представляет собой результат этой операции.</p>
+            <p class="hx-opacity-80 hx-mt-1 hx-leading-7">
+              <a class="hx-text-[color:hsl(var(--primary-hue),100%,50%)] hx-underline hx-underline-offset-2 hx-decoration-from-font" href="/blog/future/">Читать далее →</a>
+            </p>
+            <p class="hx-opacity-50 hx-text-sm hx-mt-4 hx-leading-7">25 мая 2025 г.</p>
+          </div>
+        
           <div class="hx-mb-10">
             <h3><a style="color: inherit; text-decoration: none;" class="hx-block hx-font-semibold hx-mt-8 hx-text-2xl " href="/blog/eventloop/">Dart: Event Loop</a></h3><p class="hx-opacity-80 hx-mt-4 hx-leading-7">Эта статья начинает цикл статей про параллельное программирование в Dart.
 Весь Dart-код выполняется в изолятах. Сначала запускается основной изолят, и опционально количество изолятов можно расширить, создав их явно. Каждый изолят имеет собственную изолированную память и свой цикл событий (Event Loop). Благодаря именно циклу событий можно асинхронно выполнять различные операции.
